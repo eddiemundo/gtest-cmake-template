@@ -2,6 +2,7 @@ A simple example demonstrating gtest integration in a cmake C++ project.
 
 How to run (on Windows):
 1. You need SVN command line tools installed.
+
 2. Go into the build directory and type: cmake ..
 3. Open the created solution file in Visual Studio
 4. Build all the projects.
