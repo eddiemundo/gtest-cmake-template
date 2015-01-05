@@ -1,6 +1,7 @@
 A simple example demonstrating gtest integration in a cmake C++ project.
 
 How to run (on Windows):
+
 1. You need SVN command line tools installed.
 2. Go into the build directory and type: cmake ..
 3. Open the created solution file in Visual Studio
@@ -9,6 +10,7 @@ How to run (on Windows):
 
 How it works (on Windows):
 cmake will create a solution file for Visual Studio. Inside it will be 3 projects excluding ALL_BUILD and ZERO_CHECK projects. These 3 projects are gtest, gtest_lib, lib. 
+
 1. gtest is the google test library downloaded using SVN
 2. gtest_lib is a gtest test that tests the single function exposed in lib
 3. lib is just a library project that contains a single fake square root function
