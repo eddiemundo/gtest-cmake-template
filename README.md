@@ -6,10 +6,10 @@ How to run (on Windows):
 2. Go into the build directory and type: cmake ..
 3. Open the created solution file in Visual Studio
 4. Build all the projects.
-5. Set the gtest_lib project as the startup project, and Ctrl+F5.
+5. Set the lib_gtest project as the startup project, and Ctrl+F5.
 
 How it works (on Windows):
-cmake will create a solution file for Visual Studio. Inside it will be 3 projects excluding ALL_BUILD and ZERO_CHECK projects. These 3 projects are gtest, gtest_lib, and lib. 
+cmake will create a solution file for Visual Studio. Inside it will be 3 projects excluding ALL_BUILD and ZERO_CHECK projects. These 3 projects are gtest, lib_gtest, and lib. 
 
 1. gtest is the google test library downloaded using SVN
 2. lib_gtest is a gtest test that tests the single function exposed in lib
