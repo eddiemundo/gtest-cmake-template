@@ -15,7 +15,7 @@ ExternalProject_Add(
 ExternalProject_Get_Property(gtest SOURCE_DIR)
 ExternalProject_Get_Property(gtest BINARY_DIR)
 set(TARGET lib)
-set(GTEST_TARGET gtest_${TARGET})
+set(GTEST_TARGET ${TARGET}_gtest)
 set(TEST_FILES ${CMAKE_CURRENT_SOURCE_DIR}/lib_test.cpp)
 add_executable(${GTEST_TARGET} ${TEST_FILES})
 include_directories(
