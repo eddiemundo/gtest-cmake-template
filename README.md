@@ -12,7 +12,7 @@ How it works (on Windows):
 cmake will create a solution file for Visual Studio. Inside it will be 3 projects excluding ALL_BUILD and ZERO_CHECK projects. These 3 projects are gtest, gtest_lib, and lib. 
 
 1. gtest is the google test library downloaded using SVN
-2. gtest_lib is a gtest test that tests the single function exposed in lib
+2. lib_gtest is a gtest test that tests the single function exposed in lib
 3. lib is just a library project that contains a single fake square root function
 
 When you build the projects, the test will be compiled into an executable that uses the gtest library, and lib library. When you run the executable it runs the test and shows you the pass/fail (assuming you Ctrl+F5 so the console doesn't go away after the executable finishes).
